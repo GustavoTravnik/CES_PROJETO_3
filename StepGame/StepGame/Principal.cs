@@ -25,7 +25,6 @@ namespace Step_Game
             Content.RootDirectory = "Content";
             Nova_Functions.SetGraphics(graphics);
             Nova_Functions.SetGame(this);
-           // Nova_Functions.ConfigureGraphics(false, true, false, SurfaceFormat.Color, DepthFormat.None);
         }
 
         protected override void Initialize()
@@ -39,8 +38,6 @@ namespace Step_Game
             Nova_Importer.SetContent(Content);
             Nova_Functions.SetViewport(GraphicsDevice);
             Nova_Functions.AdjustAspectRatio(this);
-           // Nova_Functions.GetWindowsFormFrom(this.Window.Handle).Opacity = 0.05f;
-            //Nova_Functions.GoToFullScreen();
             menu = new Menu();
         }
 
