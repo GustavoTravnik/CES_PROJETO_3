@@ -1,0 +1,3 @@
+C:\Users\Administrador\Desktop\StepGame\StepGame\StepGameContent\obj\x86\Debug\StepGameContent.contentprojResolveAssemblyReference.cache
+F:\StepGame\StepGame\StepGameContent\obj\x86\Debug\StepGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\StepGame\StepGame\StepGameContent\obj\x86\Debug\StepGameContent.contentprojResolveAssemblyReference.cache

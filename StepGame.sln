@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepGame", "StepGame\StepGame\StepGame.csproj", "{D3367ADD-0D38-4B55-9375-7B1C30774E4B}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "StepGameContent", "StepGame\StepGameContent\StepGameContent.contentproj", "{DD3041EE-774A-4760-904E-A6C2F66B98E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3367ADD-0D38-4B55-9375-7B1C30774E4B}.Debug|x86.ActiveCfg = Debug|x86
+		{D3367ADD-0D38-4B55-9375-7B1C30774E4B}.Debug|x86.Build.0 = Debug|x86
+		{D3367ADD-0D38-4B55-9375-7B1C30774E4B}.Release|x86.ActiveCfg = Release|x86
+		{D3367ADD-0D38-4B55-9375-7B1C30774E4B}.Release|x86.Build.0 = Release|x86
+		{DD3041EE-774A-4760-904E-A6C2F66B98E6}.Debug|x86.ActiveCfg = Debug|x86
+		{DD3041EE-774A-4760-904E-A6C2F66B98E6}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Step Game.exe
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Step Game.pdb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\NovaDll.dll
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\InputSimulator.dll
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\NovaDll.pdb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\obj\x86\Debug\Step Game.csprojResolveAssemblyReference.cache
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\obj\x86\Debug\Step Game.exe
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\obj\x86\Debug\Step Game.pdb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\particle.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\1\1.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\1\2.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\1\3.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\1\4.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\1\5.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\2\1.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\2\2.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\2\3.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\2\4.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\2\5.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\3\1.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\3\2.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\3\3.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\3\4.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\3\5.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\4\1.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\4\2.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\4\3.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\4\4.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\4\5.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\5\1.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\5\2.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\5\3.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\5\4.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\5\5.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\5\6.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\4\6.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\3\6.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\2\6.xnb
+D:\Dropbox\PROJETOS\Step Game\Step Game\Step Game\bin\x86\Debug\Content\Notes_Sprite\1\6.xnb
