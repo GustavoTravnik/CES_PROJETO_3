@@ -1,0 +1,2 @@
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_CreatorContent\obj\x86\Debug\Step_CreatorContent.contentprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\Step_CreatorContent.contentprojResolveAssemblyReference.cache

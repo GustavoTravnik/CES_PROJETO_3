@@ -1,0 +1,41 @@
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Step_Creator.exe
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Step_Creator.pdb
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\NovaDll.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\InputSimulator.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.xml
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\NovaDll.pdb
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.csprojResolveAssemblyReference.cache
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\obj\x86\Debug\Interop.WMPLib.dll
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.csproj.ResolveComReference.cache
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.exe
+D:\Dropbox\PROJETOS\Step Game\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.pdb
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Step_Creator.exe
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Step_Creator.pdb
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\InputSimulator.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\NovaDll.pdb
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.csproj.ResolveComReference.cache
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.exe
+C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.pdb
