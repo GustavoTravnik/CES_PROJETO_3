@@ -23,7 +23,9 @@ namespace Step_Game
         }
         Stack<Step> steps = new Stack<Step>();
 
-        private int stepSpeed = 20;
+        Texture2D background;
+
+        private int stepSpeed = 15;
         private int stepSpace = 140;
         private int numberOfSteps = 5;
         private Double timeBeforeCall = 0f;
@@ -63,10 +65,10 @@ namespace Step_Game
 
         private Matrix matrix = Matrix.CreateTranslation(0, 0, 0);
 
-        public StepFloor(String musicPath)
+        public StepFloor(String musicPath, Texture2D background)
         {
             Loader.LoadNotes();
-            Loader.LoadFonts();
+            this.background = background;
             scoreFont = (SpriteFont)Nova_DataBase.GetResource("FONT_SCORE");
             LoadMusic(musicPath);
             LoadScript(musicPath);
@@ -276,6 +278,7 @@ namespace Step_Game
 
         public void Draw(SpriteBatch render)
         {
+            render.Draw(background, Nova_Functions.ReturnScreenRectangle(), Color.White);
             DrawOffSteps(render);
             Nova_Particle.DoDrawParticles(notes, render);
             DrawHud(render);

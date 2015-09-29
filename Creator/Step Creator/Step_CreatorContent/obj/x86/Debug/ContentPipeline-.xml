@@ -8,10 +8,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Gustavo\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -34,6 +34,7 @@ namespace Step_Game
         public static void LoadFonts()
         {
             Nova_Importer.LoadResource("FONT_SCORE", @"Fonts\ScoreFont");
+            Nova_Importer.LoadResource("FONT_MENU", @"Fonts\TitleFont");
         }
     }
 }

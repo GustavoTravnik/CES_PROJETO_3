@@ -18,6 +18,10 @@ namespace Step_Creator
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        String imgCover, imgBackground;
+
+        private static String IMAGE_BACKGROUND_NAME = "background.png";
+        private static String IMAGE_COVER_NAME = "cover.png";
 
         WMPLib.WindowsMediaPlayer player;
         Texture2D fillTexture;
@@ -57,7 +61,7 @@ namespace Step_Creator
         Microsoft.Xna.Framework.Input.Keys slowKey = Microsoft.Xna.Framework.Input.Keys.D1;
         Microsoft.Xna.Framework.Input.Keys fastKey = Microsoft.Xna.Framework.Input.Keys.D2;
         Microsoft.Xna.Framework.Input.Keys normalSpeedKey = Microsoft.Xna.Framework.Input.Keys.Back;
-        float mediaPlayerSpeed = 1;
+
 
 
         public Principal()
@@ -78,6 +82,29 @@ namespace Step_Creator
             }
             player.URL = musicPath;
             player.controls.play();
+        }
+
+        private void SelecionarImagens()
+        {
+            OpenFileDialog op = new OpenFileDialog();
+            op.Title = "Selecione o background";
+            op.Filter = "*.png|*.png";
+            op.FileName = String.Empty;
+            op.ShowDialog();
+            if (!String.IsNullOrEmpty(op.FileName))
+            {
+                imgBackground = op.FileName;
+            }
+
+            op = new OpenFileDialog();
+            op.Title = "Selecione o cover";
+            op.Filter = "*.png|*.png";
+            op.FileName = String.Empty;
+            op.ShowDialog();
+            if (!String.IsNullOrEmpty(op.FileName))
+            {
+                imgCover = op.FileName;
+            }
         }
 
         private void PopularLista(KeyboardState kb, KeyboardState okb)
@@ -116,6 +143,8 @@ namespace Step_Creator
         private void Save(String directory)
         {
             File.Copy(musicPath, directory + "\\music.mp3");
+            File.Copy(imgBackground, directory + "\\" + IMAGE_BACKGROUND_NAME);
+            File.Copy(imgCover, directory + "\\" + IMAGE_COVER_NAME);
             StreamWriter sw = new StreamWriter(directory + "\\steps.script");
             for (int i = times.Count - 1; i >= 0; i--)
             {
@@ -154,8 +183,9 @@ namespace Step_Creator
             Nova_Functions.SetViewport(GraphicsDevice);
             player = new WMPLib.WindowsMediaPlayer();
             player.settings.autoStart = false;
-            player.settings.rate = 0.8;
+            player.settings.rate = 0.9;
             fillTexture = Nova_Functions.GetFillTexture(Color.Blue);
+            SelecionarImagens();
             SelecionarMusica();
         }
 
