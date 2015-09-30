@@ -205,3 +205,4 @@ D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\Microsoft
 D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.exe
 D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.pdb
 D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Fonts\TitleFont.xnb
+F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Fonts\TitleFont.xnb

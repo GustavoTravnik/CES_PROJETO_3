@@ -7,9 +7,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\music.xnb</Output>
-      <Extra>D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\music.wma</Extra>
-      <Time>2015-09-29T00:09:21.5358489-03:00</Time>
+      <Output>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\music.xnb</Output>
+      <Extra>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\music.wma</Extra>
+      <Time>2015-09-29T13:49:46-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -18,39 +18,39 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration Null="true" />
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Musics\Hot Girl\</RootDirectory>
+      <RootDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Musics\Cat Box - Inspiration\</RootDirectory>
       <LoggerRootDirectory Null="true" />
-      <IntermediateDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Conversor\</IntermediateDirectory>
-      <OutputDirectory>D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\</OutputDirectory>
+      <IntermediateDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Conversor\</IntermediateDirectory>
+      <OutputDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2011-09-01T16:22:30-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
         <Value>2011-09-01T16:22:30-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
         <Value>2011-09-01T16:22:30-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
         <Value>2011-09-01T16:22:30-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
         <Value>2011-09-01T16:22:30-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2011-09-01T16:22:30-03:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-08-08T12:06:07.5140972-03:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-02-25T19:32:34.237199-03:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

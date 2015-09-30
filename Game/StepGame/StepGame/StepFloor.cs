@@ -107,8 +107,8 @@ namespace Step_Game
 
         private void LoadMusic(String musicPath)
         {
-            Nova_Importer.LoadExternMusicResource(musicPath + "\\" + MUSIC_NAME, false, MUSIC_RESOURCE_NAME);
-            music = (Song)Nova_DataBase.GetResource(MUSIC_RESOURCE_NAME);
+            Nova_Importer.LoadResource("MUSIC", musicPath + "\\MUSIC");
+            music = (Song)Nova_DataBase.GetResource("MUSIC");
         }
 
         private void LoadScript(String musicPath)

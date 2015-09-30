@@ -19,6 +19,7 @@ namespace Step_Game
         private static String MUSIC_PATH = Environment.CurrentDirectory + "\\Musics";
         private static String IMAGE_BACKGROUND_NAME = "background.png";
         private static String IMAGE_COVER_NAME = "cover.png";
+        private static String MUSIC_FILE_NAME = "music.wma"
         Texture2D background, musicImage;
         private int currentIndex = 0;
         public struct Musica
@@ -40,9 +41,38 @@ namespace Step_Game
 
         SpriteFont scoreFont;
 
+        private String totalNotesOk, totalNotes, porcentagem;
+        private static String SCORE_FILE = "score.rd";
+
         KeyboardState oldKb;
 
         public enum Sense{down, up};
+
+        private void LoadScore(String directory)
+        {
+            //if (File.Exist(musicas[currentIndex].musicPath + "\\" + SCORE_FILE))
+            //{
+            //    StreamReader sr = new StreamReader(musicas[currentIndex].musicPath + "\\" + SCORE_FILE);
+            //    totalNotesOk = sr.ReadLine();
+            //    totalNotes = sr.ReadLine();
+            //    Double percent = Convert.ToDouble(totalNotesOk) / Convert.ToDouble(totalNotes) * 100;
+            //    porcentagem = Nova_Functions.FormatNumber(percent, 2) + "%";
+            //}
+        }
+
+        private void SaveScore()
+        {
+            //Boolean overwrite = false;
+            //if (File.Exist(musicas[currentIndex].musicPath + "\\" + SCORE_FILE))
+            //{
+            //    StreamReader sr = new StreamReader(musicas[currentIndex].musicPath + "\\" + SCORE_FILE);
+            //    totalNotesOk = sr.ReadLine();
+            //    if (sf.totalOk > totalNotesOk)
+            //    {
+            //        overwrite = true;
+            //    }
+            //}
+        }
 
         private void SwitchMusic(Sense sense)
         {
@@ -115,8 +145,6 @@ namespace Step_Game
                 Nova_Importer.LoadResource("BACKGROUND", folder.Name + "\\BACKGROUND");
                 musica.background = (Texture2D)Nova_DataBase.GetResource("BACKGROUND");
 
-
-                
                 if (!File.Exists(Nova_Importer.Content.RootDirectory + "\\" + folder.Name + "\\cover.xnb"))
                 {
                     Nova_Importer.LoadExternResource(folder.FullName + "\\" + IMAGE_COVER_NAME, true, "COVER");
@@ -124,6 +152,15 @@ namespace Step_Game
                 }
                 Nova_Importer.LoadResource("COVER", folder.Name + "\\COVER");
                 musica.musicImage = (Texture2D)Nova_DataBase.GetResource("COVER");
+
+                if (!File.Exists(Nova_Importer.Content.RootDirectory + "\\" + folder.Name + "\\music.xnb"))
+                {
+                    Nova_Importer.LoadExternResource(folder.FullName + "\\" + MUSIC_FILE_NAME, true, "MUSIC");
+                    File.Copy(Nova_Importer.Content.RootDirectory + "\\Externs\\MUSIC.xnb", Nova_Importer.Content.RootDirectory + "\\" + folder.Name + "\\music.xnb");
+                    File.Copy(Nova_Importer.Content.RootDirectory + "\\Externs\\MUSIC.wma", Nova_Importer.Content.RootDirectory + "\\" + folder.Name + "\\music.wma");
+                }
+                Nova_Importer.LoadResource("MUSIC", folder.Name + "\\MUSIC");
+                musica.musicImage = (Texture2D)Nova_DataBase.GetResource("MUSIC");
 
                 musica.musicPath = folder.FullName;
                 musicas.Add(musica);
