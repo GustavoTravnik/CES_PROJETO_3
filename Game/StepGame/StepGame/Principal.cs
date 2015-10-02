@@ -38,6 +38,7 @@ namespace Step_Game
             Nova_Importer.SetContent(Content);
             Nova_Functions.SetViewport(GraphicsDevice);
             Nova_Functions.AdjustAspectRatio(this);
+            Nova_Functions.GoToFullScreen();
             menu = new Menu();
         }
 

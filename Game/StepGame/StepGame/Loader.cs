@@ -29,12 +29,16 @@ namespace Step_Game
                 Nova_Importer.LoadResource("NOTE_HIT_" + i.ToString(), @"Notes_Sprite\" + i.ToString() + @"\6");
             }
 
+           
         }
 
         public static void LoadFonts()
         {
             Nova_Importer.LoadResource("FONT_SCORE", @"Fonts\ScoreFont");
             Nova_Importer.LoadResource("FONT_MENU", @"Fonts\TitleFont");
+            Nova_Importer.LoadResource("MENU_BACKGROUND", @"Back\\cover");
+            Nova_Importer.LoadResource("SCORE_BACKGROUND", @"Back\\scoreBackground");
+
         }
     }
 }

@@ -21,9 +21,10 @@ namespace Step_Game
             public Double time;
             public int note;
         }
+
         Stack<Step> steps = new Stack<Step>();
 
-        Texture2D background;
+        Texture2D background, scoreBackground;
 
         private int stepSpeed = 15;
         private int stepSpace = 140;
@@ -34,7 +35,7 @@ namespace Step_Game
         private static String SCRIPT_NAME = "steps.script";
         private static String MUSIC_RESOURCE_NAME = "CURRENT_MUSIC";
 
-        private int notesOk=0;
+        public int notesOk=0;
         private int notesMiss=0;
         private float hitRatio =0f;
         private float totalNotes = 0f;
@@ -65,9 +66,10 @@ namespace Step_Game
 
         private Matrix matrix = Matrix.CreateTranslation(0, 0, 0);
 
-        public StepFloor(String musicPath, Texture2D background)
+        public StepFloor(String musicPath, Texture2D background, Texture2D scoreBackground)
         {
             Loader.LoadNotes();
+            this.scoreBackground = scoreBackground;
             this.background = background;
             scoreFont = (SpriteFont)Nova_DataBase.GetResource("FONT_SCORE");
             LoadMusic(musicPath);
@@ -107,7 +109,8 @@ namespace Step_Game
 
         private void LoadMusic(String musicPath)
         {
-            Nova_Importer.LoadResource("MUSIC", musicPath + "\\MUSIC");
+            String d = Nova_Importer.Content.RootDirectory + "\\" + musicPath.Split('\\')[musicPath.Split('\\').Length - 1] + "\\MUSIC";
+            Nova_Importer.LoadResource("MUSIC",  musicPath.Split('\\')[musicPath.Split('\\').Length -1] + "\\MUSIC");
             music = (Song)Nova_DataBase.GetResource("MUSIC");
         }
 
@@ -211,7 +214,7 @@ namespace Step_Game
             for (int i = 0; i < notes.Count; i++)
             {
                 notes[i].Update(gameTime, matrix);
-                if (notes[i].GetColisionRectangle().Top > Nova_Functions.View.Height)
+                if (notes[i].GetColisionRectangle().Top > Nova_Functions.View.Height + 50)
                 {
                     notes[i].isAlive = false;
                     notesMiss++;
@@ -227,8 +230,10 @@ namespace Step_Game
         private void Controls()
         {
             keyboard = Keyboard.GetState();
+            Boolean[] hit = new Boolean[5];
             for (int n = 0; n < notes.Count; n++)
             {
+                
                 Boolean isNote = false;
                 for (int i = 0; i < 5; i++)
                 {
@@ -244,9 +249,13 @@ namespace Step_Game
                     {
                         if (Nova_Functions.isRectangleIntersection(offNotes[index].colision, notes[n].GetColisionRectangle()))
                         {
-                            DrawNoteHit(index);
-                            notes[n].isAlive = false;
-                            notesOk++;
+                            if (!hit[index])
+                            {
+                                hit[index] = true;
+                                DrawNoteHit(index);
+                                notes[n].isAlive = false;
+                                notesOk++;
+                            }
                         }
                     }
                 }
@@ -260,11 +269,14 @@ namespace Step_Game
             hitRatio = notesOk / totalNotes * 100;
         }
 
+        private Vector2 margin = new Vector2(26, 30);
+
         private void DrawHud(SpriteBatch render)
         {
-            render.DrawString(scoreFont, "Acerto: " + notesOk.ToString() + "/" + totalNotes.ToString(), new Vector2(0, 0), Color.White);
-            render.DrawString(scoreFont, "Erro: " + notesMiss.ToString(), new Vector2(0, 100), Color.White);
-            render.DrawString(scoreFont, "Porcentagem de Acerto: " + Nova_Functions.FormatNumber(hitRatio, 2) + "%", new Vector2(0, 200), Color.White);
+            render.Draw(scoreBackground, new Rectangle(0, 0, 300, 250), Color.White);
+            render.DrawString(scoreFont, "Acerto: " + notesOk.ToString() + "/" + totalNotes.ToString(), new Vector2(0, 0) + margin, Color.White);
+            render.DrawString(scoreFont, "Erro: " + notesMiss.ToString(), new Vector2(0, 80) + margin, Color.White);
+            render.DrawString(scoreFont, "Porcentagem: " + Nova_Functions.FormatNumber(hitRatio, 2) + "%", new Vector2(0, 160) + margin, Color.White);
         }
 
         public void Update(GameTime gameTime)
@@ -280,8 +292,9 @@ namespace Step_Game
         {
             render.Draw(background, Nova_Functions.ReturnScreenRectangle(), Color.White);
             DrawOffSteps(render);
-            Nova_Particle.DoDrawParticles(notes, render);
             DrawHud(render);
+            Nova_Particle.DoDrawParticles(notes, render);
+            
         }
     }
 }

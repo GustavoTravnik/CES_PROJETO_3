@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{1BBDEBE2-BC7A-457C-859B-1FDD7DFED801}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>F:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\</RootDirectory>
+      <LoggerRootDirectory>F:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-02-25T19:32:34.237199-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

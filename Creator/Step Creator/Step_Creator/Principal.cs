@@ -20,8 +20,8 @@ namespace Step_Creator
         SpriteBatch spriteBatch;
         String imgCover, imgBackground;
 
-        private static String IMAGE_BACKGROUND_NAME = "background.png";
-        private static String IMAGE_COVER_NAME = "cover.png";
+        private static String IMAGE_BACKGROUND_NAME = "background";
+        private static String IMAGE_COVER_NAME = "cover";
 
         WMPLib.WindowsMediaPlayer player;
         Texture2D fillTexture;
@@ -88,7 +88,7 @@ namespace Step_Creator
         {
             OpenFileDialog op = new OpenFileDialog();
             op.Title = "Selecione o background";
-            op.Filter = "*.png|*.png";
+            op.Filter = "*.png;*.jpg|*.png;*.jpg";
             op.FileName = String.Empty;
             op.ShowDialog();
             if (!String.IsNullOrEmpty(op.FileName))
@@ -98,7 +98,7 @@ namespace Step_Creator
 
             op = new OpenFileDialog();
             op.Title = "Selecione o cover";
-            op.Filter = "*.png|*.png";
+            op.Filter = "*.png;*.jpg|*.png;*.jpg";
             op.FileName = String.Empty;
             op.ShowDialog();
             if (!String.IsNullOrEmpty(op.FileName))
@@ -143,8 +143,8 @@ namespace Step_Creator
         private void Save(String directory)
         {
             File.Copy(musicPath, directory + "\\music.mp3");
-            File.Copy(imgBackground, directory + "\\" + IMAGE_BACKGROUND_NAME);
-            File.Copy(imgCover, directory + "\\" + IMAGE_COVER_NAME);
+            File.Copy(imgBackground, directory + "\\" + IMAGE_BACKGROUND_NAME + (new FileInfo(imgBackground).Extension));
+            File.Copy(imgCover, directory + "\\" + IMAGE_COVER_NAME + (new FileInfo(imgBackground).Extension));
             StreamWriter sw = new StreamWriter(directory + "\\steps.script");
             for (int i = times.Count - 1; i >= 0; i--)
             {

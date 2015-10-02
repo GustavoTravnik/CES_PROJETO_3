@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Fonts\ScoreFont.xnb</Output>
-      <Time>2015-09-24T12:38:06-03:00</Time>
+      <Time>2015-09-30T22:11:46-03:00</Time>
     </Item>
     <Item>
       <Source>Fonts\TitleFont.spritefont</Source>
@@ -288,6 +288,24 @@
       <Options>None</Options>
       <Output>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\6.xnb</Output>
       <Time>2015-09-24T12:43:48-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Back\cover.png</Source>
+      <Name>Back\cover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Back\cover.xnb</Output>
+      <Time>2015-09-30T22:04:56-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Back\scoreBackground.png</Source>
+      <Name>Back\scoreBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Back\scoreBackground.xnb</Output>
+      <Time>2015-09-30T22:04:56-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

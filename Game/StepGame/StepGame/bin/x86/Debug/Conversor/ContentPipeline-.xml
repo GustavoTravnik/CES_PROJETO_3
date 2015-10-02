@@ -9,7 +9,7 @@
       <Options>None</Options>
       <Output>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\music.xnb</Output>
       <Extra>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\music.wma</Extra>
-      <Time>2015-09-29T13:49:46-03:00</Time>
+      <Time>2015-06-30T14:08:40-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,8 +17,8 @@
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration Null="true" />
-      <CompressContent>false</CompressContent>
-      <RootDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Musics\Cat Box - Inspiration\</RootDirectory>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Musics\PVZ2\</RootDirectory>
       <LoggerRootDirectory Null="true" />
       <IntermediateDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Conversor\</IntermediateDirectory>
       <OutputDirectory>F:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Externs\</OutputDirectory>
