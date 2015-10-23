@@ -76,3 +76,13 @@ K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Micros
 K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.exe
 K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\obj\x86\Debug\Step_Creator.pdb
 D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\NovaDll.pdb
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.xml
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml

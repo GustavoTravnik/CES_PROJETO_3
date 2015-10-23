@@ -328,3 +328,8 @@ K:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.csprojRe
 K:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 K:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.exe
 K:\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.pdb
+D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\NovaDll.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\SlimDX.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\InputSimulator.dll
+D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\NovaDll.pdb
+D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\SlimDX.pdb

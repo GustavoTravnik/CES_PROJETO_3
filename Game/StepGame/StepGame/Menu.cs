@@ -15,6 +15,7 @@ namespace Step_Game
 {
     public class Menu
     {
+        Boolean isServerOn = true;
         StepFloor sf;
         private static String MUSIC_PATH = Environment.CurrentDirectory + "\\Musics";
         private static String IMAGE_BACKGROUND_NAME = "background";
@@ -134,12 +135,24 @@ namespace Step_Game
                 if (newKb.IsKeyDown(Keys.Escape) && oldKb.IsKeyUp(Keys.Escape))
                 {
                     isInGame = false;
+                    SaveScoreOnline();
                     sf = null;
                     MediaPlayer.Stop();
                 }
             }
 
             oldKb = newKb;
+        }
+
+        private void SaveScoreOnline()
+        {
+            Nova_FTP ftp = new Nova_FTP("yellowdesire.com", "u734915093", "finalfantasy9", false);
+            String name = new DirectoryInfo(musicas[currentIndex].musicPath).Name + ".txt";
+            StreamWriter sr = new StreamWriter(name);
+            sr.WriteLine(Environment.UserName);
+            sr.WriteLine(sf.notesOk.ToString() + "/" + ((int)sf.totalNotes).ToString());
+            sr.Close();
+            ftp.Upload(name);
         }
 
         private void LoadMusics()
@@ -219,11 +232,60 @@ namespace Step_Game
             }
         }
 
+        int oldIndex = -1;
+        String currentScore= "";
+
+        private String GetRecordByMusicName()
+        {
+            if (oldIndex != currentIndex)
+            {
+                currentScore = "";
+                oldIndex = currentIndex;
+                String name = new DirectoryInfo(musicas[currentIndex].musicPath).Name + ".txt";
+                Nova_FTP ftp = new Nova_FTP("yellowdesire.com", "u734915093", "finalfantasy9", false);
+                if (isServerOn)
+                {
+                    try
+                    {
+                    String[] files = ftp.GetFileList();
+                    Boolean haveName = false;
+                    foreach (String s in files)
+                    {
+                        if (s.Contains(name))
+                        {
+                            haveName = true;
+                        }
+                    }
+                    if (!haveName)
+                        return currentScore;
+
+                  
+                        if (File.Exists(name))
+                            File.Delete(name);
+                        ftp.Download(name, name);
+                        StreamReader sr = new StreamReader(name);
+                        currentScore = " - " + sr.ReadLine() + " Fez " + sr.ReadLine();
+                        return currentScore;
+                    }
+                    catch
+                    {
+                        isServerOn = false;
+                        return currentScore;
+                    }
+                }
+                else
+                    return currentScore;
+            }
+            else
+                return currentScore;
+          
+        }
+
         public void Draw(SpriteBatch render)
         {
             DrawImages(render);
             render.Draw(scoreBackground, new Rectangle(0, 0, Nova_Functions.View.Width, 60), Color.White);
-            render.DrawString(scoreFont,musicas[currentIndex].musicPath.Split('\\')[musicas[currentIndex].musicPath.Split('\\').Length-1], new Vector2(Nova_Functions.View.Width / 2 - scoreFont.MeasureString(musicas[currentIndex].musicPath.Split('\\')[musicas[currentIndex].musicPath.Split('\\').Length - 1]).X / 2, 0), Color.White);
+            render.DrawString(scoreFont,musicas[currentIndex].musicPath.Split('\\')[musicas[currentIndex].musicPath.Split('\\').Length-1] + GetRecordByMusicName(), new Vector2(Nova_Functions.View.Width / 2 - scoreFont.MeasureString(musicas[currentIndex].musicPath.Split('\\')[musicas[currentIndex].musicPath.Split('\\').Length - 1]).X / 2, 0), Color.White);
             if (sf != null)
             {
                 sf.Draw(render);

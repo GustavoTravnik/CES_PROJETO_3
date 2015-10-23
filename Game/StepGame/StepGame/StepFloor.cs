@@ -21,7 +21,6 @@ namespace Step_Game
             public Double time;
             public int note;
         }
-
         Stack<Step> steps = new Stack<Step>();
 
         Texture2D background, scoreBackground;
@@ -38,7 +37,7 @@ namespace Step_Game
         public int notesOk=0;
         private int notesMiss=0;
         private float hitRatio =0f;
-        private float totalNotes = 0f;
+        public float totalNotes = 0f;
 
         SpriteFont scoreFont;
         
@@ -68,6 +67,7 @@ namespace Step_Game
 
         public StepFloor(String musicPath, Texture2D background, Texture2D scoreBackground)
         {
+           
             Loader.LoadNotes();
             this.scoreBackground = scoreBackground;
             this.background = background;
