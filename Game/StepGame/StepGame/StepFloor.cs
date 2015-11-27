@@ -255,6 +255,10 @@ namespace Step_Game
                                 DrawNoteHit(index);
                                 notes[n].isAlive = false;
                                 notesOk++;
+                                if (Menu.serverRunning)
+                                {
+                                    Menu.client.SendMessage(music.Name + "|" + notesOk.ToString() + "|" + Menu.playerName);
+                                }
                             }
                         }
                     }
@@ -273,10 +277,14 @@ namespace Step_Game
 
         private void DrawHud(SpriteBatch render)
         {
-            render.Draw(scoreBackground, new Rectangle(0, 0, 300, 250), Color.White);
+            render.Draw(scoreBackground, new Rectangle(0, 0, 300, 330), Color.White);
             render.DrawString(scoreFont, "Acerto: " + notesOk.ToString() + "/" + totalNotes.ToString(), new Vector2(0, 0) + margin, Color.White);
             render.DrawString(scoreFont, "Erro: " + notesMiss.ToString(), new Vector2(0, 80) + margin, Color.White);
             render.DrawString(scoreFont, "Porcentagem: " + Nova_Functions.FormatNumber(hitRatio, 2) + "%", new Vector2(0, 160) + margin, Color.White);
+            if (Menu.serverRunning)
+            {
+                render.DrawString(scoreFont, "Other Player: " + otherScore, new Vector2(0, 240) + margin, Color.White);
+            }
         }
 
         public void Update(GameTime gameTime)
@@ -286,6 +294,29 @@ namespace Step_Game
             UpdateRatio();
             SetTimeBeforeCall(gameTime);
             StepsSender();
+            SendScore();
+            GetScore();
+        }
+
+
+        
+        String otherScore;
+
+        private void SendScore()
+        {
+            
+        }
+
+        private void GetScore()
+        {
+            if (Menu.serverRunning)
+            {
+                String message = Menu.client.GetLastMessage();
+                if (message.Contains(music.Name) && message.Split('|')[2] != Menu.playerName)
+                {
+                    otherScore = message.Split('|')[1];
+                }
+            }
         }
 
         public void Draw(SpriteBatch render)

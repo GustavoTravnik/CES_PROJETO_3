@@ -10,13 +10,15 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using NovaDll;
 using System.IO;
+using System.Diagnostics;
 
 namespace Step_Game
 {
     public class Menu
     {
-        Boolean isServerOn = true;
+        Boolean isServerOn = false;
         StepFloor sf;
+        public static String playerName = Environment.UserName + new Random().Next(0, 99999).ToString();
         private static String MUSIC_PATH = Environment.CurrentDirectory + "\\Musics";
         private static String IMAGE_BACKGROUND_NAME = "background";
         private static String IMAGE_COVER_NAME = "cover";
@@ -107,6 +109,21 @@ namespace Step_Game
             musicPath = m.musicPath;
 
         }
+        Nova_Network_Server server;
+        public static Nova_Network_Client client;
+        private void LoadAsServer()
+        {
+            Process.Start(Environment.CurrentDirectory + "\\server.exe");
+        }
+
+        private void ConnectAsClient()
+        {
+            client = new Nova_Network_Client();
+            client.ConnectToServer(5457, "192.168.4.22", playerName);
+            serverRunning = true;
+        }
+
+        public static Boolean serverRunning = false;
 
         private void SwitchMusicControl()
         {
@@ -129,6 +146,16 @@ namespace Step_Game
                     isInGame = true;
                     sf = new StepFloor(musicas[currentIndex].musicPath, background, scoreBackground);
                 }
+
+                if (newKb.IsKeyDown(Keys.F1) && oldKb.IsKeyUp(Keys.F1))
+                {
+                    LoadAsServer();
+                }
+
+                if (newKb.IsKeyDown(Keys.F2) && oldKb.IsKeyUp(Keys.F2))
+                {
+                    ConnectAsClient();
+                }
             }
             else
             {
@@ -146,13 +173,23 @@ namespace Step_Game
 
         private void SaveScoreOnline()
         {
-            Nova_FTP ftp = new Nova_FTP("yellowdesire.com", "u734915093", "finalfantasy9", false);
-            String name = new DirectoryInfo(musicas[currentIndex].musicPath).Name + ".txt";
-            StreamWriter sr = new StreamWriter(name);
-            sr.WriteLine(Environment.UserName);
-            sr.WriteLine(sf.notesOk.ToString() + "/" + ((int)sf.totalNotes).ToString());
-            sr.Close();
-            ftp.Upload(name);
+            try
+            {
+                if (isServerOn)
+                {
+                    Nova_FTP ftp = new Nova_FTP("yellowdesire.com", "u734915093", "finalfantasy9", false);
+                    String name = new DirectoryInfo(musicas[currentIndex].musicPath).Name + ".txt";
+                    StreamWriter sr = new StreamWriter(name);
+                    sr.WriteLine(Environment.UserName);
+                    sr.WriteLine(sf.notesOk.ToString() + "/" + ((int)sf.totalNotes).ToString());
+                    sr.Close();
+                    ftp.Upload(name);
+                }
+            }
+            catch
+            {
+                isServerOn = false;
+            }
         }
 
         private void LoadMusics()
@@ -237,7 +274,7 @@ namespace Step_Game
 
         private String GetRecordByMusicName()
         {
-            if (oldIndex != currentIndex)
+            if (oldIndex != currentIndex && isServerOn)
             {
                 currentScore = "";
                 oldIndex = currentIndex;

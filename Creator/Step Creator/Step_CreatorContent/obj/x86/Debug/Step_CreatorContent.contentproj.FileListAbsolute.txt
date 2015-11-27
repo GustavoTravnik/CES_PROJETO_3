@@ -4,3 +4,4 @@ D:\Desktop\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x
 F:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\Step_CreatorContent.contentprojResolveAssemblyReference.cache
 D:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
 K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\Step_CreatorContent.contentprojResolveAssemblyReference.cache
+E:\PROJETO 3\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\Step_CreatorContent.contentprojResolveAssemblyReference.cache

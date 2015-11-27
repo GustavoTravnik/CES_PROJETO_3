@@ -333,3 +333,47 @@ D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\SlimDX.dl
 D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\InputSimulator.dll
 D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\NovaDll.pdb
 D:\Desktop\StepGame\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\SlimDX.pdb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Fonts\ScoreFont.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Fonts\TitleFont.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\1\1.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\1\2.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\1\3.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\1\4.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\1\5.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\1\6.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\2\1.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\2\2.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\2\3.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\2\4.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\2\5.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\2\6.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\3\1.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\3\2.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\3\3.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\3\4.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\3\5.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\3\6.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\4\1.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\4\2.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\4\3.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\4\4.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\4\5.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\4\6.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\1.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\2.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\3.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\4.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\5.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Notes_Sprite\5\6.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Back\cover.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\Content\Back\scoreBackground.xnb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\StepGame.exe
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\StepGame.pdb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\SlimDX.dll
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\InputSimulator.dll
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\NovaDll.pdb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\bin\x86\Debug\SlimDX.pdb
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.csprojResolveAssemblyReference.cache
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.exe
+E:\PROJETO 3\CES_PROJETO_3\Game\StepGame\StepGame\obj\x86\Debug\StepGame.pdb

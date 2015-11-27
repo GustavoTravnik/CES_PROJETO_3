@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step_Creator", "..\Creator\Step Creator\Step_Creator\Step_Creator.csproj", "{47B81091-854B-4FEB-8267-A371B682D39C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step_CreatorContent", "..\Creator\Step Creator\Step_CreatorContent\Step_CreatorContent.contentproj", "{1BBDEBE2-BC7A-457C-859B-1FDD7DFED801}"
@@ -8,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepGame", "..\Game\StepGame\StepGame\StepGame.csproj", "{D3367ADD-0D38-4B55-9375-7B1C30774E4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepGameContent", "..\Game\StepGame\StepGameContent\StepGameContent.contentproj", "{DD3041EE-774A-4760-904E-A6C2F66B98E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{BD060E89-789E-4E5D-8181-4605000DC624}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D3367ADD-0D38-4B55-9375-7B1C30774E4B}.Release|x86.Build.0 = Release|x86
 		{DD3041EE-774A-4760-904E-A6C2F66B98E6}.Debug|x86.ActiveCfg = Debug|x86
 		{DD3041EE-774A-4760-904E-A6C2F66B98E6}.Release|x86.ActiveCfg = Release|x86
+		{BD060E89-789E-4E5D-8181-4605000DC624}.Debug|x86.ActiveCfg = Debug|x86
+		{BD060E89-789E-4E5D-8181-4605000DC624}.Debug|x86.Build.0 = Debug|x86
+		{BD060E89-789E-4E5D-8181-4605000DC624}.Release|x86.ActiveCfg = Release|x86
+		{BD060E89-789E-4E5D-8181-4605000DC624}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

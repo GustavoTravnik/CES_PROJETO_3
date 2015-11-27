@@ -1,0 +1,9 @@
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\Server.exe
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\Server.pdb
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\NovaDll.dll
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\SlimDX.dll
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\InputSimulator.dll
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\NovaDll.pdb
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\bin\Debug\SlimDX.pdb
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\obj\x86\Debug\Server.exe
+E:\PROJETO 3\CES_PROJETO_3\PROJECT\Server\obj\x86\Debug\Server.pdb

@@ -7,15 +7,15 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\</RootDirectory>
-      <LoggerRootDirectory>K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\</LoggerRootDirectory>
-      <IntermediateDirectory>K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>K:\StepGame\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\PROJETO 3\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\</RootDirectory>
+      <LoggerRootDirectory>E:\PROJETO 3\CES_PROJETO_3\Creator\Step Creator\Step_Creator\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\PROJETO 3\CES_PROJETO_3\Creator\Step Creator\Step_CreatorContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\PROJETO 3\CES_PROJETO_3\Creator\Step Creator\Step_Creator\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-10-01T20:12:09.7207748-03:00</Value>
+        <Value>2014-09-26T17:30:16.6814711-03:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
