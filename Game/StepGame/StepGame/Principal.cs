@@ -44,7 +44,7 @@ namespace Step_Game
 
         protected override void UnloadContent()
         {
-
+            Environment.Exit(0);
         }
 
         protected override void Update(GameTime gameTime)

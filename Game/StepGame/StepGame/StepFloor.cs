@@ -283,7 +283,7 @@ namespace Step_Game
             render.DrawString(scoreFont, "Porcentagem: " + Nova_Functions.FormatNumber(hitRatio, 2) + "%", new Vector2(0, 160) + margin, Color.White);
             if (Menu.serverRunning)
             {
-                render.DrawString(scoreFont, "Other Player: " + otherScore, new Vector2(0, 240) + margin, Color.White);
+                render.DrawString(scoreFont, otherPlayerName + " :" + otherScore, new Vector2(0, 240) + margin, Color.White);
             }
         }
 
@@ -315,9 +315,12 @@ namespace Step_Game
                 if (message.Contains(music.Name) && message.Split('|')[2] != Menu.playerName)
                 {
                     otherScore = message.Split('|')[1];
+                    otherPlayerName = message.Split('|')[2];
                 }
             }
         }
+
+        public String otherPlayerName = "";
 
         public void Draw(SpriteBatch render)
         {

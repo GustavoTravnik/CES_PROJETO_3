@@ -26,6 +26,7 @@ namespace Step_Game
         Texture2D background, musicImage, coverBackground, scoreBackground;
         private int currentIndex = 0;
         private Boolean isInGame = false;
+        Boolean alreadyConnected = false;
 
         public struct Musica
         {
@@ -118,9 +119,17 @@ namespace Step_Game
 
         private void ConnectAsClient()
         {
-            client = new Nova_Network_Client();
-            client.ConnectToServer(5457, "192.168.4.22", playerName);
-            serverRunning = true;
+            if (!alreadyConnected)
+            {
+                Nova_INI ini = new Nova_INI(Environment.CurrentDirectory + "\\config.ini");
+
+                client = new Nova_Network_Client();
+                String ip = ini.Read("IP", "CONF");
+                client.ConnectToServer(5457, ip, playerName);
+                serverRunning = true;
+                alreadyConnected = true;
+            }
+            
         }
 
         public static Boolean serverRunning = false;
